@@ -1,0 +1,10 @@
+token:
+  prefix: "Bearer "
+  header: "Authorization"
+  secret: "my-api-secret"
+  ttl : 1000000
+  whitelist:
+    - "/login"
+    - "/register"
+    - "/index.html"
+    - "/post"
